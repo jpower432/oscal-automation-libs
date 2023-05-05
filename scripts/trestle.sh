@@ -4,7 +4,6 @@ TRESTLE_IMAGE="localhost:5000/trestle-demo"
 TRESTLE_IMAGE_TAG="latest"
 
 TRESTLE_CMD_IMAGE="trestle"
-PANDOC_CMD_IMAGE="/demo/bin/pandoc"
 PYTHON_CMD_IMAGE="python"
 
 CONTAINER_CMD=$(command -pv podman || command -pv docker)
